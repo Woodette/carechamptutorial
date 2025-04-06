@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(144deg, rgba(50, 130, 201, 0.5), rgb(13, 135, 211), rgb(255, 255, 255));
+  }
+  
+
+  h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(34, 54, 54);
+    text-align: center;
+  }
+  
+  /* 🔹 Header - Fixed at the Top */
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    z-index: 1000;
+  }
+
+  /* Logo inside Header */
+  .logo-container img {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+
+  }
+
+  
+  /* 🔹 Footer Styling */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(to bottom, rgb(95, 11, 95), rgb(121, 5, 121));
+    color: white;
+    font-size: 14px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 🔹 Footer Image Styling */
+  .footer-logo {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto 0;
+  }
+  
+   /* 🔹 Utility spacing for main content under fixed header */
+   main {
+    padding-top: 180px;
+  }
+  /* 🔹 Tutorial specific styles (if not embedded inline) */
+  .tutorial-screen {
+    display: none;
+    text-align: center;
+  }
+  
+  .tutorial-screen.active {
+    display: block;
+  }
+  
+  .tutorial-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .click-text {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 10px;
+  }
+  

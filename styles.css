@@ -56,7 +56,7 @@ body {
   
    /* 🔹 Utility spacing for main content under fixed header */
    main {
-    padding-top: 180px;
+    padding-top: 160px;
   }
   /* 🔹 Tutorial specific styles (if not embedded inline) */
   .tutorial-screen {

@@ -56,12 +56,12 @@ body {
   
    /* 🔹 Utility spacing for main content under fixed header */
    main {
-    padding-top: 160px;
+    padding-top: 120px;
   }
   /* 🔹 Tutorial specific styles (if not embedded inline) */
   .tutorial-screen {
     display: none;
-    text-align: center;
+    text-align: left;
   }
   
   .tutorial-screen.active {
